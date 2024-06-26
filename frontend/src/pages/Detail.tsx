@@ -2,7 +2,6 @@ import { useQuery } from "react-query";
 import { useParams } from "react-router-dom";
 import * as apiClient from "../api-client";
 import { AiFillStar } from "react-icons/ai";
-import { PiX } from "react-icons/pi";
 import GestInfoFrom from "../forms/gestInfoForms/GestInfoFrom";
 
 const Detail = () => {
