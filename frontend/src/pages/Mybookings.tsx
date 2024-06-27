@@ -1,6 +1,5 @@
 import { useQuery } from "react-query";
 import * as apiClient from "../api-client";
-import Booking from "./Booking";
 
 const Mybookings = () => {
   const { data: hotels } = useQuery(
